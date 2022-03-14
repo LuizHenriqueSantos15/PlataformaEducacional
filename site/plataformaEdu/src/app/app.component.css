@@ -1,0 +1,39 @@
+aside{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 20vw;
+    height: 100vh;
+    background-size: cover;
+    background-position:105ch;
+}
+
+p{
+    text-align: start;
+    color: white;
+}
+
+h4{
+    color: white;
+    font-weight: 550;
+}
+
+h1{
+    color: white;
+    line-height: 10px;
+}
+
+img{
+    margin-left: 9%;
+    margin-top: 40px;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.8s all;
+}
+
+.contSideBar{
+    margin-top: 0px;
+    margin-left: 22px;
+}
