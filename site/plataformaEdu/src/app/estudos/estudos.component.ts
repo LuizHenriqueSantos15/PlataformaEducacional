@@ -76,7 +76,7 @@ export class EstudosComponent implements OnInit {
     this.stateForm = false;
     this.bateraState= false;
     this.guitaState= false;
-    this.tecladoState= true;
+    this.tecladoState= false;
     this.violaoState= false;
   }
 

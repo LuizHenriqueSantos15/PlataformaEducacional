@@ -64,6 +64,7 @@ main{
     }
 
     .hinos{
+        margin-top: 5px;
         border: 2px solid white;
         border-radius: 10px;
         padding: 1px;

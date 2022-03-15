@@ -81,8 +81,9 @@ h1 , a{
 @media screen and (max-width: 768px){
     .cont{
         margin-top: 16.5%;
-        margin-left: 10%;
-        width: 60vw;
+        margin-left: 4%;
+        width: 63.5vw;
+        box-shadow: none;
     }
     .headCont{
         font-size: 28px;
@@ -104,8 +105,9 @@ h1 , a{
         line-height: 18px;
     }
     iframe{
-        width: 180px;
-        height: 92px;
-        margin-left: -25%;
+        align-self: center;
+        width: 232px;
+        height: 136px;
+        margin-left: -33%;
     }
 }
