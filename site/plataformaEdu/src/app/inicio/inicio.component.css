@@ -23,6 +23,8 @@ main{
     text-align: center;
     margin-left: 18%;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .headCont{
@@ -35,6 +37,7 @@ main{
     font-size: 20px;
     font-weight: 400;
     color: white;
+    text-decoration: none;
 }
 
 .hinos:hover{
