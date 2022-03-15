@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:'mural', component: InicioComponent},
   {path:'estudos', component: EstudosComponent},
   {path:'area', component: AreaComponent},
-  {path:'', component: InicioComponent},
+  {path:'', component: AreaComponent},
   {path:'sobre', component: SobreComponent},
 ];
 

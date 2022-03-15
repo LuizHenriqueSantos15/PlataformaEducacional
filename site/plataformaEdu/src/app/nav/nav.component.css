@@ -69,7 +69,7 @@ article{
 
 @media screen and (max-width: 768px) {
     img{
-        width: 30px;
+        display: none;
     }
 
     h2{

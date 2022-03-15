@@ -1,3 +1,94 @@
-h1{
+
+main{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cont{
+    align-self: center;
+    width: 70vw;
+    margin-left: 15%;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: -1px -1px 5px grey;
+    background-color: #0a101d;
+}
+
+.MuralDiv{
+    background-color: #0a101d;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-left: 18%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headCont{
+    margin-top: 0px;
+    color: rgb(243, 243, 243);
+    font-size: 35px;
+}
+
+.headCursos{
     color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.aCursos{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.aCursos:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.hinos{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.hinos:hover{
+    font-weight: 400;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+
+@media screen and (max-width: 768px){
+    .cont{
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .headCont{
+        font-size: 20px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .hinos{
+        margin-top: 15px;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 1px;
+        font-size: 18px;
+    }
+
+    .hinos:hover{
+        transform: scale(1.0);
+    }
 }
