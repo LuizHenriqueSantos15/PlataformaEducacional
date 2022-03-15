@@ -76,19 +76,15 @@ main{
         font-size: 20px;
     }
 
+    .headCursos{
+        font-size: 15px;
+    }
+
+    .aCursos{
+        font-size: 16px;
+    }
+
     hr{
         display: none;
-    }
-
-    .hinos{
-        margin-top: 15px;
-        border: 2px solid white;
-        border-radius: 10px;
-        padding: 1px;
-        font-size: 18px;
-    }
-
-    .hinos:hover{
-        transform: scale(1.0);
     }
 }
