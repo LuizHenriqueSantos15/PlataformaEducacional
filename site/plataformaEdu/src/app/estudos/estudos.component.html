@@ -1,0 +1,83 @@
+<main>
+  <div class="cont">
+    <div class="MuralDiv">
+      <h4 class="headCont">Estudos</h4>
+      <hr>
+      <div *ngIf="stateForm" class="formCont">
+        <h4 class="checkText">Escolha Seu Instrumento:</h4>
+        <div class="form">
+          <input (change)="bateraSelect()" type="checkbox" placeholder="Check">
+          <h1>Bateria</h1> 
+        </div>
+  
+        <div class="form">
+          <input (change)="tecladoSelect()" type="checkbox" placeholder="Check">
+          <h1>Teclado</h1> 
+        </div>
+  
+        <div class="form">
+          <input (change)="guitaSelect()" type="checkbox" placeholder="Check">
+          <h1>Guitarra</h1> 
+        </div>
+  
+        <div class="form">
+          <input (change)="bassSelect()" type="checkbox" placeholder="Check">
+          <h1>Baixo</h1> 
+        </div>
+  
+        <div class="form">
+          <input (change)="guitaBaseSelect()" type="checkbox" placeholder="Check">
+          <h1>Gt Base</h1> 
+        </div>
+
+        <div class="form">
+          <input (change)="violaoSelect()" type="checkbox" placeholder="Check">
+          <h1>Violão</h1> 
+        </div>
+      </div>
+
+      <div *ngIf="bateraState" class="batera">
+        <h1>Material Semana 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZyE5QB_JQaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a target="a_blank" href="www.youtube.com"> PDF Download</a>
+      </div>
+
+      <div *ngIf="guitaState" class="guitarra">
+        <h1>Material Semana 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Vgt_8mnr2cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a target="a_blank" href="www.youtube.com"> PDF Download</a>
+      </div>
+
+      <div *ngIf="tecladoState" class="teclado">
+        <h1>Material Semana 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OyNStUY5AJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a target="a_blank" href="www.youtube.com"> PDF Download</a>
+      </div>
+
+      <div *ngIf="bassState" class="bass">
+        <h1>Material Semana 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TAFBr4bVDt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a target="a_blank" href="www.youtube.com"> PDF Download</a>
+      </div>
+
+      <div *ngIf="guitaBaseState" class="guitaBase">
+        <h1>Material Semana 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QuCUi_S55rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a target="a_blank" href="www.youtube.com"> PDF Download</a>
+      </div>
+
+      <div *ngIf="violaoState" class="violao">
+        <h1>Material Semana 1</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EZNtTvxwWrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a target="a_blank" href="www.youtube.com"> PDF Download</a>
+      </div>
+
+    </div>
+  </div>
+</main>
