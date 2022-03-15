@@ -82,7 +82,7 @@ h1 , a{
     .cont{
         margin-top: 16.5%;
         margin-left: 4%;
-        width: 63.5vw;
+        width: 60vw;
         box-shadow: none;
     }
     .headCont{
@@ -106,8 +106,8 @@ h1 , a{
     }
     iframe{
         align-self: center;
-        width: 232px;
-        height: 136px;
-        margin-left: -33%;
+        width: 280px;
+        height: 156px;
+        margin-left: -37%;
     }
 }
